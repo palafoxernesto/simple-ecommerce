@@ -18,5 +18,10 @@
   "homepage": "https://github.com/palafoxernesto/simple-ecommerce-platform#readme",
   "devDependencies": {
     "standard": "^14.1.0"
+  },
+  "dependencies": {
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.18.1"
   }
 }
