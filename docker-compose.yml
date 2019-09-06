@@ -1,0 +1,14 @@
+version: '3'
+services:
+  postgres:
+    container_name: simple-ecommerce-postgres
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_DB: my_ecommerce
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: adminPassword
+    volumes:
+      - ./data:/postgres-data/db
+    ports:
+      - "5432:5432"
