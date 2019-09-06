@@ -1,0 +1,22 @@
+{
+  "name": "simple-ecomerce-db",
+  "version": "1.0.0",
+  "description": "Simple e-commerce platform - DB Module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palafoxernesto/simple-ecommerce.git"
+  },
+  "author": "Ernesto Palafox <palafox.ernesto@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/palafoxernesto/simple-ecommerce-platform/issues"
+  },
+  "homepage": "https://github.com/palafoxernesto/simple-ecommerce-platform#readme",
+  "devDependencies": {
+    "standard": "^14.1.0"
+  }
+}
