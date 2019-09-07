@@ -14,6 +14,9 @@ module.exports = async function (config) {
 
   await sequelize.authenticate()
 
+  if (config.setup) {
+    await sequelize.sync({ force: true })
+  }
   sequelize.sync()
 
   const Store = {}

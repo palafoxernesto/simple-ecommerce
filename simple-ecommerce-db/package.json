@@ -4,7 +4,8 @@
   "description": "Simple e-commerce platform - DB Module",
   "main": "index.js",
   "scripts": {
-    "lint": "standard"
+    "lint": "standard",
+    "setup": "DEBUG=simple-ecommerce:* node setup.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
     "standard": "^14.1.0"
   },
   "dependencies": {
+    "debug": "^4.1.1",
     "pg": "^7.12.1",
     "pg-hstore": "^2.3.3",
     "sequelize": "^5.18.1"
